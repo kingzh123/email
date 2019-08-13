@@ -35,7 +35,7 @@ func RunModule(table string)  {
 		TagKey("orm").
 		RealNameMethod(fileName).
 		SavePath("./modules/" + fileName + ".go").
-		Dsn("ihaogu:krlvaXT#5fc0@tcp(rm-2zemv66378n06wb94o.mysql.rds.aliyuncs.com:3306)/ihaogu?charset=utf8").
+		Dsn("").
 		// 执行
 		Run()
 	if err != nil {
